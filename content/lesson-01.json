@@ -1,0 +1,171 @@
+{
+  "id": "1",
+  "title": "第1課　これは何ですか？",
+  "description": "基本的な指示代名詞と疑問文の使い方を学習します",
+  "courses": [
+    {
+      "id": "1-1",
+      "title": "はじめに (導入)",
+      "textbookRef": "p.20-21",
+      "cards": [
+        {
+          "id": "goal-1",
+          "type": "goal",
+          "title": "この課で学ぶこと",
+          "body": "## これができるようになります！\n\n✓ 身近なものについて「これは何ですか？」と質問できる\n\n✓ 「これは〜です」と答えることができる\n\n✓ 基本的な挨拶と自己紹介ができる",
+          "imagePrompt": "Russian classroom setting with textbooks and learning materials"
+        },
+        {
+          "id": "listening-1", 
+          "type": "listening",
+          "title": "会話を聞いてみましょう",
+          "body": "まずは音声を聞いて、どんな会話か想像してみてください。",
+          "audioSrc": "/audio/lesson-01/intro-conversation.mp3",
+          "imagePrompt": "Two people having a conversation in Russian"
+        },
+        {
+          "id": "phrase-1",
+          "type": "phrase", 
+          "title": "基本フレーズ：これは何ですか？",
+          "body": "**Что это?** \n\n[シト エータ]\n\n意味：これは何ですか？",
+          "audioSrc": "/audio/lesson-01/chto-eto.mp3",
+          "imagePrompt": "Person pointing at an object asking what it is"
+        },
+        {
+          "id": "phrase-2",
+          "type": "phrase",
+          "title": "基本フレーズ：これは本です", 
+          "body": "**Это книга.**\n\n[エータ クニーガ]\n\n意味：これは本です。",
+          "audioSrc": "/audio/lesson-01/eto-kniga.mp3",
+          "imagePrompt": "A Russian book on a desk"
+        },
+        {
+          "id": "mcq-1",
+          "type": "mcq",
+          "title": "理解度チェック",
+          "body": "「これは何ですか？」をロシア語で言うと？",
+          "options": [
+            "Это что?",
+            "Что это?", 
+            "Как это?"
+          ],
+          "answer": 1,
+          "explanation": "「Что это?」が正解です。「что」は「何」、「это」は「これ」を意味します。"
+        }
+      ]
+    },
+    {
+      "id": "1-2", 
+      "title": "ポイント① 指示代名詞「это」",
+      "textbookRef": "p.22",
+      "prerequisite": "1-1",
+      "cards": [
+        {
+          "id": "grammar-1",
+          "type": "grammar",
+          "title": "文法ポイント：это の使い方",
+          "body": "## 指示代名詞「это」\n\n**это** は「これ、それ、あれ」を表す万能な指示代名詞です。\n\n### 基本的な使い方\n- **Это книга.** (これは本です)\n- **Это стол.** (これは机です)\n- **Что это?** (これは何ですか？)",
+          "imagePrompt": "Grammar explanation diagram showing это pointing to various objects"
+        },
+        {
+          "id": "phrase-3",
+          "type": "phrase",
+          "title": "語彙：基本的な物の名前",
+          "body": "**стол** [ストール] - 机\n\n**стул** [ストゥール] - 椅子\n\n**окно** [アクノー] - 窓\n\n**дверь** [ドヴェーリ] - ドア",
+          "audioSrc": "/audio/lesson-01/vocabulary-objects.mp3",
+          "imagePrompt": "Classroom objects labeled in Russian: desk, chair, window, door"
+        },
+        {
+          "id": "mcq-2",
+          "type": "mcq", 
+          "title": "練習問題",
+          "body": "「これは椅子です」をロシア語で言うと？",
+          "options": [
+            "Это стул.",
+            "Это стол.", 
+            "Это окно."
+          ],
+          "answer": 0,
+          "explanation": "「стул」が椅子という意味なので、「Это стул.」が正解です。"
+        }
+      ]
+    },
+    {
+      "id": "1-3",
+      "title": "ポイント② 疑問文の作り方", 
+      "textbookRef": "p.23",
+      "prerequisite": "1-2",
+      "cards": [
+        {
+          "id": "grammar-2",
+          "type": "grammar",
+          "title": "疑問詞「что」を使った疑問文",
+          "body": "## 疑問詞「что」(何)\n\nロシア語では疑問詞を文の最初に置きます。\n\n### パターン\n**что + это?** = 何ですか？\n\n例：**Что это?** (これは何ですか？)",
+          "imagePrompt": "Question mark with Russian text showing interrogative structure"
+        },
+        {
+          "id": "ab-test-1",
+          "type": "ab-test",
+          "title": "発音練習：疑問のイントネーション",
+          "body": "疑問文と平叙文の違いを聞き比べてみましょう。",
+          "options": [
+            "Что это? (疑問文)",
+            "Это книга. (平叙文)"
+          ],
+          "audioSrc": "/audio/lesson-01/intonation-comparison.mp3",
+          "imagePrompt": "Sound waves showing different intonation patterns"
+        },
+        {
+          "id": "order-1",
+          "type": "order",
+          "title": "語順練習",
+          "body": "「これは何ですか？」を正しい語順に並べてください。",
+          "options": ["это", "что", "?"],
+          "answer": ["что", "это", "?"],
+          "explanation": "ロシア語の疑問文では疑問詞が最初に来ます。"
+        }
+      ]
+    },
+    {
+      "id": "1-4",
+      "title": "実践と定着",
+      "textbookRef": "p.24-25", 
+      "prerequisite": "1-3",
+      "cards": [
+        {
+          "id": "mcq-3",
+          "type": "mcq",
+          "title": "総復習クイズ①",
+          "body": "次の会話で正しい応答はどれですか？\n\nA: Что это?\nB: ?",
+          "options": [
+            "Это стол.",
+            "Что это?",
+            "Как дела?"
+          ],
+          "answer": 0,
+          "explanation": "質問に対しては「Это + 名詞」で答えます。"
+        },
+        {
+          "id": "mcq-4", 
+          "type": "mcq",
+          "title": "総復習クイズ②", 
+          "body": "「窓」を表すロシア語は？",
+          "options": [
+            "дверь",
+            "стул", 
+            "окно"
+          ],
+          "answer": 2,
+          "explanation": "「окно」が窓という意味です。"
+        },
+        {
+          "id": "complete-1",
+          "type": "complete",
+          "title": "第1課完了！",
+          "body": "## おめでとうございます！🎉\n\n第1課を完了しました。\n\n### 学習した内容\n✅ 指示代名詞「это」\n✅ 疑問詞「что」\n✅ 基本的な物の名前\n✅ 疑問文の作り方\n\n次の課では動詞の現在形を学習します。",
+          "imagePrompt": "Celebration scene with Russian learning achievement certificate"
+        }
+      ]
+    }
+  ]
+}
